@@ -87,5 +87,35 @@ body{
     margin: 10px 0px 0px 10px;
     font-size: 14px;
     display: none;
+}
 
+@media only screen and (max-width: 400px){
+    .weatherBox{
+        width: 90%;
+        max-width: 470px;
+        background: linear-gradient(40deg, #0cbad1, #131314, #00d4ff);
+        text-align: center;
+        margin: 100px auto 0;
+        border-radius: 20px;
+        padding: 40px 40px;
+        color: #ebfffc;
+    }
+    body{
+        background-color: red;
+    }
+    .search{
+        justify-content: space-around;
+    }
+    .search input{
+        margin-right: 10px;
+    }
+    .search button{
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+    .search img{
+        width: 40px;
+        padding: 10px;
+    }
 }
