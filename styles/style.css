@@ -115,4 +115,10 @@ body{
         width: 40px;
         padding: 10px;
     }
+    .details{
+        padding: 0;
+    }
+    .col{
+        margin-right: 10px;
+    }
 }
