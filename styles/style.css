@@ -100,9 +100,6 @@ body{
         padding: 40px 40px;
         color: #ebfffc;
     }
-    body{
-        background-color: red;
-    }
     .search{
         justify-content: space-around;
     }
